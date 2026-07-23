@@ -1,5 +1,6 @@
-console.log("Hello, World!");
-console.log("Hello, World!");
-console.log("Hello, World!");
-console.log("Hello, World!");
-
+let num = 5;
+let result = "";
+for (let i = 1; i <= 10; i++) {
+  result += `${num} x ${i} = ${num * i} `;
+}
+console.log(result.trim());
