@@ -25,4 +25,6 @@ if (status === 200) {
 } else {
   console.log("Other");
 }
-for (let i = 0; i < 5; i++) { if (i === 3) break; } console.log(i);
+for (let i = 0; i < 5; i++) 
+    
+    { if (i === 3) break; } console.log(i);
